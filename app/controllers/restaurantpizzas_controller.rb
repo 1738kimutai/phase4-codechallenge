@@ -1,4 +1,4 @@
-class RestaurantPizzasController < ApplicationController
+class RestaurantpizzasController < ApplicationController
     def create
       @restaurant_pizza = RestaurantPizza.new(restaurant_pizza_params)
   
